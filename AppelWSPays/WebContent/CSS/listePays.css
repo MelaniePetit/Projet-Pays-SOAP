@@ -1,0 +1,15 @@
+body
+{
+    background-image: url("Ressources/mapmonde.jpg");
+    background-attachment: fixed; /* Le fond restera fixe */
+    background-repeat: no-repeat;
+    background-size:cover;
+    max-width: 100%;
+	height: auto;
+}
+
+.table
+{
+	opacity: 0.7;
+	margin-top: 15%;
+}

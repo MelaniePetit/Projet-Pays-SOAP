@@ -1,0 +1,28 @@
+body
+{
+    background-image: 		url("Ressources/mapmonde.jpg");
+    background-attachment: 	fixed; /* Le fond restera fixe */
+    background-repeat: 		no-repeat;
+    background-size:		cover;
+    max-width: 				100%;
+	height: 				auto;
+}
+
+.vertical-center
+{
+	opacity: 		0.9;
+	margin-top: 	25%;
+  	height:			100%;
+  	width:			100%;
+  	text-align: 	center;
+}
+
+.container iframe{
+	margin-top:		50vh; /* poussé de la moitié de hauteur de viewport */
+  	transform: 		translateY(-50%); /* tiré de la moitié de sa propre hauteur */
+	position: 		absolute;
+	top: 			0;
+	left:			0;
+	width: 			100%;
+	display: 		block;
+}
